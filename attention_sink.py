@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Real Attention Sink Analyzer
+Attention Sink Analyzer
 Analyzes actual transformer models to prove the attention sink phenomenon
-Uses real model weights and measures actual attention patterns
+Uses model weights and measures actual attention patterns
 """
 
 import torch
@@ -35,8 +35,8 @@ class AttentionAnalysis:
     layer_names: List[str]
 
 
-class RealAttentionSinkAnalyzer:
-    """Analyzes real transformer models for attention sink patterns"""
+class AttentionSinkAnalyzer:
+    """Analyzes transformer models for attention sink patterns"""
     
     def __init__(self, device: str = "auto"):
         self.device = self._get_device(device)
@@ -344,19 +344,19 @@ CONCLUSION:
   - Confirms Meta (2023) and Google (2025) research findings
 
 This analysis provides empirical proof that the attention sink
-phenomenon exists in real transformer models.
+phenomenon exists in transformer models.
 """
         return report
 
 
 def main():
     """Run comprehensive attention sink proof analysis"""
-    print("🔍 REAL ATTENTION SINK ANALYZER")
+    print("🔍 ATTENTION SINK ANALYZER")
     print("Proving attention sink phenomenon with actual model analysis")
     print("=" * 60)
     
     # Initialize analyzer
-    analyzer = RealAttentionSinkAnalyzer()
+    analyzer = AttentionSinkAnalyzer()
     
     # Load model (start with GPT-2 small for speed)
     try:
@@ -399,7 +399,7 @@ def main():
     results_df.to_csv('attention_sink_proof_results.csv', index=False)
     print("\nResults saved to 'attention_sink_proof_results.csv'")
     
-    print("\n🎉 Analysis complete! Attention sink phenomenon proven with real model data.")
+    print("\n🎉 Analysis complete! Attention sink phenomenon proven with model data.")
 
 
 if __name__ == "__main__":
