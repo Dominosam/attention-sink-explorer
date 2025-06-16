@@ -1,0 +1,6 @@
+text_preview,seq_length,avg_first_token_attention,max_first_token_attention,sink_strength,first_vs_avg_ratio,progression_increase
+The quick brown fox jumps over...,10,69.37524,99.43293,0.69375247,20.387987,31.713497
+Artificial intelligence has re...,16,63.311935,99.387,0.63311946,25.88524,44.82129
+"In the depths of the ocean, my...",22,59.72322,99.463196,0.5972321,31.13921,47.545135
+The economic implications of c...,22,60.869053,99.572334,0.6086908,32.666004,46.937515
+"Machine learning algorithms, p...",30,56.642456,99.28988,0.56642467,37.885723,49.759384
